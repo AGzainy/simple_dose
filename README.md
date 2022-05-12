@@ -1,6 +1,6 @@
 # simple_dose
 
-A new Flutter project.
+
 
 ## Getting Started
 
