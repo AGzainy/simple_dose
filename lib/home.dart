@@ -38,7 +38,7 @@ class _LOVEState extends State<LOVE> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "MY LOVE",
+          "OXYTOCIN",
           style: TextStyle(
               color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),
         ),
@@ -81,7 +81,7 @@ class _LOVEState extends State<LOVE> {
                   onPressed: _showQuote,
                   icon: Icon(Icons.star_rounded, color: Colors.black),
                   label: Text(
-                    "LOVE ME",
+                    "DOSE ME",
                     style: TextStyle(color: Colors.black, fontSize: 18.8),
                   )),
             )
