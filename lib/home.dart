@@ -36,7 +36,9 @@ class _LOVEState extends State<LOVE> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10),),
         title: Text(
           "OXYTOCIN",
           style: TextStyle(
@@ -44,9 +46,10 @@ class _LOVEState extends State<LOVE> {
         ),
         centerTitle: true,
         backgroundColor: _oran,
+
       ),
       body: Container(
-        color: Colors.black,
+
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
